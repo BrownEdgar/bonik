@@ -1,0 +1,60 @@
+.Footer {
+  width: 1440px;
+  height: 364px;
+  background-color: rgb(255, 242, 239);
+  color: rgb(68, 75, 81);
+
+  &__content {
+    display: flex;
+    gap: 92px;
+    padding-top: 74px;
+    margin-left: 274px;
+
+    &-left {
+      width: 370px;
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+      }
+    }
+    &-center,
+    &-right {
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 37px;
+      }
+      > p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 16px;
+      }
+    }
+  }
+  .logo {
+    display: flex;
+    gap: 27px;
+    margin-top: 40px;
+
+    i {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 22px;
+      background-color: rgba(68, 75, 81, 1);
+      color: #fff;
+      padding: 5px;
+    }
+  }
+  .copyright {
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(226, 67, 41, 1);
+    margin-top: 72px;
+    padding: 13px;
+  }
+}
