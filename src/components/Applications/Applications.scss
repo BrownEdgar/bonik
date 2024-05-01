@@ -1,14 +1,16 @@
+@import "../../sass/colors";
+
 .Applications {
   display: flex;
   width: 1440px;
   height: 600px;
-  background-color: rgba(255, 242, 239, 1);
+  background-color: $main-primary-background-color;
 
   &__content {
     width: 652px;
     height: 428px;
     margin-left: 135px;
-    color: rgb(68, 75, 81);
+    color: $main-text-color;
     h1 {
       font-size: 40px;
       font-weight: 700;
@@ -28,21 +30,18 @@
       font-size: 18px;
       font-weight: 700;
       margin-top: 30px;
-
+      div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
       p:nth-child(1) {
-        color: #fff;
-        background-color: rgb(226, 67, 41);
+        color: $main-white-color;
+        background-color: $main-second-background-color;
         width: 50px;
         height: 50px;
         border-radius: 50%;
         padding: 12px 14px;
-      }
-      &-one,
-      &-two,
-      &-three {
-        display: flex;
-        align-items: center;
-        gap: 20px;
       }
     }
   }
@@ -54,46 +53,6 @@
       width: 617px;
       height: 767px;
       margin-top: 53px;
-    }
-  }
-  .app {
-    display: flex;
-    gap: 30px;
-    font-family: "Inter";
-    color: rgba(32, 58, 89, 1);
-    margin-top: 40px;
-
-    &__content {
-      display: flex;
-      gap: 4px;
-      width: 170px;
-      height: 60px;
-      border: 2px solid rgb(32, 58, 89);
-      border-radius: 16px;
-      padding: 10px 14px;
-
-      i {
-        font-size: 35px;
-        color: rgb(32, 58, 89);
-      }
-      img {
-        width: 29px;
-        height: 32px;
-      }
-      &-left,
-      &-right {
-        margin-top: -3px;
-
-        p {
-          font-size: 10px;
-          font-weight: 400;
-          margin-left: 4px;
-        }
-        h2 {
-          font-size: 18px;
-          font-weight: 700;
-        }
-      }
     }
   }
 }
