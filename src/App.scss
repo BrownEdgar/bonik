@@ -26,14 +26,14 @@
         }
         .cards{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 20px;
-            padding-top: 20px;
+            padding-top: 25px;
             .card{
                 max-width: 370px;
                 max-height: 260px;
-                padding: 50px;
+                padding: 30px;
                 border-radius: 16px;
                 background-color: rgba(255, 214, 221, 0.985);
                 max-width: 370px;
@@ -48,7 +48,7 @@
                     line-height: 32px;
                     //text-align: center;
                     color: #444B51;
-                    padding-bottom: 15px;
+                    padding-bottom: 10px;
                 }
                 p{
                     font-family: Pragmatica;
@@ -61,7 +61,7 @@
                 }
                 img{
                     width: 70px;
-                    padding-bottom: 25px;
+                    padding-bottom: 20px;
                 }
             }
         }
