@@ -11,15 +11,15 @@ export default function Applications() {
           goods from a source location to a predefined destination.
         </p>
         <div className="Applications__content-list">
-          <div className="Applications__content-list-one">
+          <div>
             <p>01</p>
             <p>Follow Delivery Status</p>
           </div>
-          <div className="Applications__content-list-two">
+          <div>
             <p>02</p>
             <p>Order From Any Location</p>
           </div>
-          <div className="Applications__content-list-three">
+          <div>
             <p>03</p>
             <p>Get Important Notices</p>
           </div>
@@ -50,7 +50,7 @@ export default function Applications() {
         </div>
       </div>
       <div className="Applications__image">
-        <img src="../image/app_image.png" alt="app_image" />
+        <img src="./images/app_image.png" alt="app_image" />
       </div>
     </div>
   );
