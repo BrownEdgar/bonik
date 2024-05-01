@@ -1,10 +1,10 @@
 import React from "react";
-import Applications from "./components/Applications/Applications";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <Applications />
+      <Footer />
     </div>
   );
 }
