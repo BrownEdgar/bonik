@@ -24,21 +24,29 @@ export default function Applications() {
             <p>Get Important Notices</p>
           </div>
         </div>
+
         <div className="app">
-          <div className="app__content">
-            <i className="bx bxl-apple"></i>
-            <div className="app__content-left">
-              <p>Download on the</p>
-              <h2>App Store</h2>
+          <a href="https://www.apple.com/app-store/" target="_blank">
+            <div className="app__content">
+              <i className="bx bxl-apple"></i>
+              <div className="app__content-left">
+                <p>Download on the</p>
+                <h2>App Store</h2>
+              </div>
             </div>
-          </div>
-          <div className="app__content">
-            <img src="../icon/google.svg" alt="" />
-            <div className="app__content-right">
-              <p>Get it on</p>
-              <h2>Google Play</h2>
+          </a>
+          <a
+            href="https://play.google.com/store/games?hl=ru&gl=US&pli=1"
+            target="_blank"
+          >
+            <div className="app__content">
+              <img src="../icon/google.svg" alt="" />
+              <div className="app__content-right">
+                <p>Get it on</p>
+                <h2>Google Play</h2>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div className="Applications__image">
