@@ -6,7 +6,6 @@
   font-family: "Inter";
   color: $main-text-color;
   margin-top: 40px;
-
   &__content {
     display: flex;
     gap: 4px;
@@ -14,9 +13,9 @@
     height: 60px;
     border: 2px solid $main-text-color;
     border-radius: 16px;
-    padding: 10px 14px;
+    padding: 8px 12px;
     i {
-      font-size: 35px;
+      font-size: 36px;
       color: $main-text-color;
     }
     img {
@@ -24,8 +23,6 @@
       height: 32px;
     }
     div {
-      margin-top: -3px;
-
       p {
         font-size: 10px;
         font-weight: 400;
