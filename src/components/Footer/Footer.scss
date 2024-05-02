@@ -1,52 +1,57 @@
 .Footer {
   width: 1440px;
-  height: 364px;
+  height: 346px;
   background-color: rgb(255, 242, 239);
   color: rgb(68, 75, 81);
 
   &__content {
     display: flex;
     gap: 92px;
-    padding-top: 74px;
-    margin-left: 274px;
+
+    border: 2px solid red;
+    width: 872px;
+    margin: 40px auto;
 
     &-left {
       width: 370px;
-      p {
-        font-size: 18px;
-        font-weight: 400;
-        margin-top: 30px;
-      }
-    }
-    &-center,
-    &-right {
-      h2 {
+      
+      li {
         font-size: 24px;
         font-weight: 700;
         margin-bottom: 37px;
       }
-      > p {
-        font-size: 16px;
-        font-weight: 500;
-        margin-top: 16px;
+    }
+    ul {
+      li :first-child{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 37px;
+
+      }
+      li {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+      }
+      
+    }
+    &-logo {
+      display: flex;
+      gap: 27px;
+      margin-top: 40px;
+
+      i {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        font-size: 22px;
+        color: #fff;
+        background-color: rgba(68, 75, 81, 1);
+        padding: 5px;
       }
     }
   }
-  .logo {
-    display: flex;
-    gap: 27px;
-    margin-top: 40px;
 
-    i {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      font-size: 22px;
-      background-color: rgba(68, 75, 81, 1);
-      color: #fff;
-      padding: 5px;
-    }
-  }
   .copyright {
     height: 50px;
     font-size: 16px;

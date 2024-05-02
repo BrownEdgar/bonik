@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="Footer__content-left">
           <img src="./image/logo.png" alt="" />
           <p>10/B, House# 32, Dhaka Uddan Mohammadpur, Dhaka, Bangladesh</p>
-          <div className="logo">
+          <div className="Footer__content-logo">
             <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
               <i class="bx bxl-facebook"></i>
             </a>
@@ -26,20 +26,21 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="Footer__content-center">
-          <h2>Important links</h2>
-          <p>FAQs</p>
-          <p>Blogs</p>
-          <p>Privacy Policy</p>
-          <p>Trims & Conditions</p>
-        </div>
-        <div className="Footer__content-right">
-          <h2>Policy</h2>
-          <p>Learner</p>
-          <p>Partners</p>
-          <p>Developers</p>
-          <p>Teaching Centre</p>
-        </div>
+
+        <ul className="Footer__content-right">
+          <li className="">Important links</li>
+          <li>FAQs</li>
+          <li>Blogs</li>
+          <li>Privacy Policy</li>
+          <li>Trims & Conditions</li>
+        </ul>
+        <ul className="Footer__content-right">
+          <li>Policy</li>
+          <li>Learner</li>
+          <li>Partners</li>
+          <li>Developers</li>
+          <li>Teaching Centre</li>
+        </ul>
       </div>
       <div className="copyright">Copyright @2021 Bonik Delivery</div>
     </div>
