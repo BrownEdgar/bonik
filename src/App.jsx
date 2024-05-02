@@ -1,11 +1,10 @@
 import React from "react";
-import Applications from "./components/Applications/Applications";
-
+import Questions from "./components/Questions/Questions";
 
 export default function App() {
   return (
     <div className="App">
-
+      <Questions />
     </div>
   );
 }
