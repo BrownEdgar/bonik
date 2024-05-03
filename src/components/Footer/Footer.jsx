@@ -9,21 +9,11 @@ export default function Footer() {
           <img src="./image/logo.png" alt="" />
           <p>10/B, House# 32, Dhaka Uddan Mohammadpur, Dhaka, Bangladesh</p>
           <div className="Footer__content-logo">
-            <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
-              <i class="bx bxl-facebook"></i>
-            </a>
-            <a href="https://www.linkedin.com/home" target="_blank">
-              <i class="bx bxl-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/?lang=ru" target="_blank">
-              <i class="bx bxl-twitter"></i>
-            </a>
-            <a href="https://www.pinterest.com/" target="_blank">
-              <i class="bx bxl-pinterest-alt"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-              <i class="bx bxl-instagram"></i>
-            </a>
+            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-linkedin"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-pinterest-alt"></i>
+            <i class="bx bxl-instagram"></i>
           </div>
         </div>
         <ul>
@@ -33,7 +23,6 @@ export default function Footer() {
           <li>Privacy Policy</li>
           <li>Trims & Conditions</li>
         </ul>
-
         <ul>
           <li>Policy</li>
           <li>Learner</li>
@@ -42,7 +31,7 @@ export default function Footer() {
           <li>Teaching Centre</li>
         </ul>
       </div>
-      {/* <div className="copyright">Copyright @2021 Bonik Delivery</div> */}
+      <div className="Footer__line">Copyright @2024 Bonik Delivery</div>
     </div>
   );
 }

@@ -2,28 +2,31 @@
 .Footer {
   width: 1440px;
   height: 346px;
-  background-color: $main;
-  color: rgb(68, 75, 81);
-  padding-top: 50px;
+  background-color: $main-primary-background-color;
+  color: $main-text-color;
+  padding-top: 74px;
 
   &__content {
     display: flex;
     gap: 92px;
-    border: 2px solid rgb(54, 250, 5);
     width: 872px;
-    height: 210px;
     margin: 0 auto;
-
     ul {
       width: 192px;
+      height: 210px;
 
       li {
+        margin: 16px auto;
+        width: 192px;
         font-size: 16px;
         font-weight: 500;
-        margin-top: 16px;
+      }
+      & :first-child {
+        font-size: 24px;
+        font-weight: 700;
+        padding-bottom: 20px;
       }
     }
-
     &-block {
       width: 370px;
       p {
@@ -39,38 +42,19 @@
         height: 32px;
         border-radius: 50%;
         font-size: 22px;
-        color: #fff;
-        background-color: rgba(68, 75, 81, 1);
+        color: $main-white-color;
+        background-color: $main-text-color;
         padding: 5px;
       }
     }
-
-    .copyright {
-      height: 50px;
-      font-size: 16px;
-      font-weight: 500;
-      text-align: center;
-      color: #fff;
-      background-color: rgba(226, 67, 41, 1);
-      margin-top: 72px;
-      padding: 13px;
-    }
+  }
+  &__line {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: $main-white-color;
+    background-color: $main-second-background-color;
+    margin: 62px auto;
+    padding: 13px;
   }
 }
-
-// li {
-//   font-size: 24px;
-//   font-weight: 700;
-//   margin-bottom: 37px;
-// }
-// }
-// ul {
-
-// li {
-//   margin-top: 30px;
-//   font-size: 18px;
-//   font-weight: 400;
-
-// }
-
-// }
