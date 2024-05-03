@@ -1,0 +1,42 @@
+@import "./src/sass/colors";
+
+
+.Booking {
+  width: 1135px;
+  // left: 50%;
+  // transform: translate(-50%, -50%); //?
+  position: absolute;
+  // bottom: -90px;
+
+  &__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-info {
+      padding: 20px 15px;
+      background-color: $white-color;
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+      border-radius: 16px;
+      width: 270px;
+      height: 100px;
+
+      div {
+        p {
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 400;
+          color: $main-text-color;
+        }
+        h2 {
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: 700;
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+}
