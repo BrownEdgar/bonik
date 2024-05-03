@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <div className="Footer__content">
-        <div className="Footer__content-left">
+        <div className="Footer__content-block">
           <img src="./image/logo.png" alt="" />
           <p>10/B, House# 32, Dhaka Uddan Mohammadpur, Dhaka, Bangladesh</p>
           <div className="Footer__content-logo">
@@ -26,15 +26,15 @@ export default function Footer() {
             </a>
           </div>
         </div>
-
-        <ul className="Footer__content-right">
-          <li className="">Important links</li>
+        <ul>
+          <li>Important links</li>
           <li>FAQs</li>
           <li>Blogs</li>
           <li>Privacy Policy</li>
           <li>Trims & Conditions</li>
         </ul>
-        <ul className="Footer__content-right">
+
+        <ul>
           <li>Policy</li>
           <li>Learner</li>
           <li>Partners</li>
@@ -42,7 +42,7 @@ export default function Footer() {
           <li>Teaching Centre</li>
         </ul>
       </div>
-      <div className="copyright">Copyright @2021 Bonik Delivery</div>
+      {/* <div className="copyright">Copyright @2021 Bonik Delivery</div> */}
     </div>
   );
 }
