@@ -62,7 +62,7 @@ export default function Questions() {
                 <h2>{elem.title}</h2>
                 <p style={{ display: isShow === elem.id ? "block" : "none" }}>
                   {elem.desc}
-                </p>
+                </p>a
               </div>
             </div>
           );
