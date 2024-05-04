@@ -1,0 +1,69 @@
+.App{
+    .container {
+        .header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h3{
+                font-family: Pragmatica;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                //text-align: center;
+                color: #444B51;
+            }
+            &>p{
+                font-family: Pragmatica;
+                font-weight: 400;
+                size: 18px;
+                line-height: 26px;
+                color: #444B51;
+                padding-top: 20px;
+                text-align: center;
+                max-width: 615px;
+            }
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding-top: 25px;
+            .card{
+                max-width: 370px;
+                max-height: 260px;
+                padding: 30px;
+                border-radius: 16px;
+                background-color: rgba(255, 214, 221, 0.985);
+                max-width: 370px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                h4{
+                    font-family: Pragmatica;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                    //text-align: center;
+                    color: #444B51;
+                    padding-bottom: 10px;
+                }
+                p{
+                    font-family: Pragmatica;
+                    font-weight: 400;
+                    size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    //max-width: 615px;
+                    color: rgba(68, 75, 81, 1);
+                }
+                img{
+                    width: 70px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
