@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import whyChooseUsSlice from '../features/whyChooseUs/whyChooseUsSlice';
+import testSlice from '../features/testSclice/testSlice';
 
 const store = configureStore({
   reducer: {
-    whyChooseUs : whyChooseUsSlice
+    testSlice : testSlice
+
   }
 })
 
