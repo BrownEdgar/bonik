@@ -1,0 +1,20 @@
+.Header{
+    background-color: rgba(226, 67, 41, 1);
+    background-image: url("./images/background.png");
+    &__container{
+        max-width: 1170px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 500;
+        &-info{
+            h1{
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 68px;
+                color: white;
+            }
+        }
+    }
+}
