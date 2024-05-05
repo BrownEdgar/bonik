@@ -1,0 +1,29 @@
+@import '../../sass/colors';
+
+.Our_Clients{
+  &__container{
+    max-width: 1127px;
+    max-height: 138px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;  
+    h2{
+      color: $main-text-color;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-import Header from './components/Header/Header'
+import Our_Clients from './components/Our_Clients/Our_Clients'
 
 export default function App() {
   return (
     <div className='App'>
-      <Header/>
+      <Our_Clients />
     </div>
   )
 }
