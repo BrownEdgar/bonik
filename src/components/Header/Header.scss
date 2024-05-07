@@ -1,20 +1,57 @@
 .Header{
     background-color: rgba(226, 67, 41, 1);
     background-image: url("./images/background.png");
+    border-radius: 0px 0px 50px 50px;
+    //border-radius: 0 50px;
     &__container{
         max-width: 1170px;
         margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 500;
+        padding: 65px 0;
         &-info{
             h1{
+                max-width: 731px;
                 font-weight: 700;
                 font-size: 48px;
                 line-height: 68px;
                 color: white;
+                padding-bottom: 40px;
             }
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 26px;
+                color: rgba(255, 255, 255, 1);
+                padding-bottom: 40px;
+                
+            }
+            form{
+                display: flex;
+                input{
+                    width: 400px;
+                    padding: 14px;
+                    border-radius: 30px 0 0 30px;
+                    border: none;
+                    border: 1px solid rgba(189, 189, 189, 1);
+
+                }
+                button{
+                    width: 170px;
+                    border-radius: 0 30px 30px 0;
+                    border: 1px solid rgba(189, 189, 189, 1);
+                    background-color: rgba(255, 106, 0, 1);
+                    color: white;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 15.63px;
+                    border: none;
+                }
+            }
+        }
+        img{
+            width: 620px;
         }
     }
 }

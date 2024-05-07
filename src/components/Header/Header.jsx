@@ -10,8 +10,8 @@ export default function Header() {
             Going From Source Point to Predefined Destination.</h1>
         <p>Need to send something on time? Delivery is process of transporting goods from a source location to a predefined destination.</p>
       <form>
-        <input type="text" />
-        <button type='submit'></button>
+        <input type="text" placeholder='Type your tracking number'/>
+        <button type='submit'>Track Percel</button>
       </form>
       </div>
       <img src="./images/delivery.png"/>
