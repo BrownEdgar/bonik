@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import partnerSlice from '../features/partner/partnerSlice';
+import companyNewsSlice from '../features/companyNews/companyNewsSlice';
 
 const store = configureStore({
   reducer: {
-    partner: partnerSlice
+    companyNews: companyNewsSlice
   }
 })
 
