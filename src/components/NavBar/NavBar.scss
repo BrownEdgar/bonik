@@ -1,0 +1,54 @@
+.NavBar{
+    &__container{
+        padding: 17px;
+        max-width: 1170px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        .phone{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .bxs-phone{
+                color: rgba(226, 67, 41, 1);
+                width: 12px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+        .btn{
+            background-color: rgba(226, 67, 41, 1);
+            padding: 12px 24px;
+            border-radius: 22px;
+            p{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: white;
+            }
+        }
+        .lang{
+            display: flex;
+            //gap: 2px;
+            .bx-globe{
+                width: 28px;
+                color: rgba(130, 130, 130, 1);
+            }
+            p{
+                color: rgba(130, 130, 130, 1);
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+            }
+        }
+    }
+}
