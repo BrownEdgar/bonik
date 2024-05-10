@@ -1,0 +1,41 @@
+@import "./src/sass/colors";
+
+.DeliverySection {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: space-between;
+  padding-block: 70px;
+  width: 1135px;
+  margin: 40px auto;
+  img {
+    width: 650px;
+    height: 520px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    h2 {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 26px;
+      max-width: 520px;
+    }
+    button {
+      background-color: $btn-color;
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: 0;
+      color: #fff;
+      font-weight: 700;
+      font-size: 18px;
+      width: 200px;
+    }
+  }
+}
