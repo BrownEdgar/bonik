@@ -1,0 +1,51 @@
+@import "../../sass/colors";
+.Questions {
+  width: 1440px;
+  color: $main-text-color;
+
+  &__content {
+    width: 870px;
+    height: 666px;
+    margin: 0 auto;
+    h3{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: $main-second-background-color;
+    }
+  }
+  &__title {
+    width: 842px;
+    margin: 0 auto;
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    p {
+      width: 615px;
+      font-size: 18px;
+      margin: 0 auto 63px auto;
+      text-align: center;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 32px;
+    width: 800px;
+    border-bottom: 2px solid $main-hr-color;
+    margin-bottom: 20px;
+    i {
+      font-size: 28px;
+      color: $main-second-background-color;
+    }
+    div > h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    div > p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}
