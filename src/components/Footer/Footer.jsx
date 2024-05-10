@@ -6,24 +6,14 @@ export default function Footer() {
     <div className="Footer">
       <div className="Footer__content">
         <div className="Footer__content-left">
-          <img src="./image/logo.png" alt="" />
+          <img src="./images/logo.png" alt="logo" />
           <p>10/B, House# 32, Dhaka Uddan Mohammadpur, Dhaka, Bangladesh</p>
           <div className="logo">
-            <a href="https://www.facebook.com/?locale=ru_RU" target="_blank">
-              <i class="bx bxl-facebook"></i>
-            </a>
-            <a href="https://www.linkedin.com/home" target="_blank">
-              <i class="bx bxl-linkedin"></i>
-            </a>
-            <a href="https://twitter.com/?lang=ru" target="_blank">
-              <i class="bx bxl-twitter"></i>
-            </a>
-            <a href="https://www.pinterest.com/" target="_blank">
-              <i class="bx bxl-pinterest-alt"></i>
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-              <i class="bx bxl-instagram"></i>
-            </a>
+            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-linkedin"></i>
+            <i className="bx bxl-twitter"></i>
+            <i className="bx bxl-pinterest-alt"></i>
+            <i className="bx bxl-instagram"></i>
           </div>
         </div>
         <div className="Footer__content-center">
