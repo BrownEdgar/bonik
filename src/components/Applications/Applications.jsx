@@ -28,7 +28,7 @@ export default function Applications() {
           </div>
           <ApplicationApp />
         </div>
-        <img src="../images/app_image.png" alt="app_image" />
+        <img src="./images/app_image.png" alt="app_image" />
       </div>
     </div>
   );
