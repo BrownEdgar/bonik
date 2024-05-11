@@ -1,11 +1,10 @@
 import React from "react";
-import Footer from "./components/Footer/Footer";
-
+import Clients from "./components/Clients/Clients";
 
 export default function App() {
   return (
     <div className="App">
-      <Footer/>
+      <Clients />
     </div>
   );
 }

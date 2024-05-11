@@ -1,0 +1,74 @@
+@import "../../sass/colors";
+
+.Clients {
+  width: 100%;
+
+  &__about {
+    width: 1074px;
+    height: 642px;
+    margin: 20px auto;
+  }
+  &__title {
+    color: $main-text-color;
+    text-align: center;
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+    p {
+      margin: 16px auto;
+      width: 616px;
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__block {
+    display: flex;
+    
+    gap: 500px;
+
+    &-left {
+      
+
+      img:nth-child(1) {
+        position: absolute;
+        z-index: 3;
+        width: 380px;
+        height: 476px;
+        border-radius: 40px;
+        border-left: 6px solid white;
+      }
+      img:nth-child(2) {
+        position: absolute;
+        z-index: 2;
+        width: 314px;
+        height: 388px;
+        border-radius: 40px;
+        border-left: 6px solid white;
+        transform: rotate(-15deg);
+        margin-left: -50px;
+        margin-top: 60px;
+        opacity: 0.4;
+      }
+      img:nth-child(3) {
+        position: absolute;
+        z-index: 1;
+        width: 250px;
+        height: 294px;
+        border-radius: 40px;
+        border-left: 6px solid white;
+        transform: rotate(-30deg);
+        margin-left: -90px;
+        margin-top: 120px;
+        opacity: 0.4;
+      }
+    }
+    &-right{
+
+    }
+  }
+  
+
+  
+}
