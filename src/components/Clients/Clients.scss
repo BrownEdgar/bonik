@@ -3,11 +3,6 @@
 .Clients {
   width: 100%;
 
-  &__about {
-    width: 1074px;
-    height: 642px;
-    margin: 20px auto;
-  }
   &__title {
     color: $main-text-color;
     text-align: center;
@@ -25,50 +20,112 @@
 
   &__block {
     display: flex;
-    
-    gap: 500px;
+    gap: 80px;
+    width: 1074px;
+    height: 478px;
+    margin: auto;
 
     &-left {
-      
+      width: 524px;
+      height: 476px;
+      margin: 0 auto;
+      position: relative;
+
+      & > img {
+        position: absolute;
+        border-radius: 40px;
+        border: 6px solid white;
+      }
 
       img:nth-child(1) {
-        position: absolute;
         z-index: 3;
-        width: 380px;
+        width: 378px;
         height: 476px;
-        border-radius: 40px;
-        border-left: 6px solid white;
+        left: 140px;
       }
+
       img:nth-child(2) {
-        position: absolute;
         z-index: 2;
         width: 314px;
         height: 388px;
-        border-radius: 40px;
-        border-left: 6px solid white;
-        transform: rotate(-15deg);
-        margin-left: -50px;
-        margin-top: 60px;
+        transform: rotate(-18deg);
+        left: 96px;
+        top: 60px;
         opacity: 0.4;
+        transition: 0.6s linear;
       }
       img:nth-child(3) {
-        position: absolute;
         z-index: 1;
         width: 250px;
         height: 294px;
-        border-radius: 40px;
-        border-left: 6px solid white;
-        transform: rotate(-30deg);
-        margin-left: -90px;
-        margin-top: 120px;
+        transform: rotate(-36deg);
+        left: 50px;
+        top: 120px;
         opacity: 0.4;
+        transition: 0.6s linear;
+      }
+
+      img:nth-child(1):hover {
+        scale: 1.05;
+        transition: 0.4s linear;
+
+      }
+      img:nth-child(2):hover {
+        transform: rotate(0deg);
+        scale: 1.29;
+        transition: 0.6s linear;
+        opacity: 1;
+        z-index: 4;
+        transform: translateX(50px);
+      }
+      img:nth-child(3):hover {
+        transform: rotate(0deg);
+        scale: 1.64;
+        transition: 0.6s linear;
+        opacity: 1;
+        z-index: 5;
+        transform: translateX(94px) translateY(-18px);
       }
     }
-    &-right{
-
+    &-right {
+      > img {
+        color: rgba(221, 111, 119, 1);
+        margin-bottom: 42px;
+      }
     }
   }
-  
+  &__content {
+    margin-bottom: 80px;
+    transition: 2s;
 
-  
+    img {
+      width: 140px;
+      margin-bottom: 30px;
+    }
+    h4 {
+      width: 470px;
+      font-size: 18px;
+      font-weight: 500;
+      color: $main-text-color;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: $main-second-background-color;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      color: $main-text-color;
+    }
+  }
+  &__btn {
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+  }
+  &__btn > img:hover {
+    scale: 1.05;
+  }
 }
