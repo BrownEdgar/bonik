@@ -1,53 +1,49 @@
 @import "./src/sass/colors";
 
-.Partner{
-    width: 100%;
-    &__section{
-        background-color: #fdedea;
-        height: 330px;
-        width: 967px;
-        margin: 20px auto;
-        border-radius: 24px;
-        background-image: url(./images/ani.png);
-        &-context > div{
-            padding-top: 50px;
-            width: 791px;
-            height:260px;
-            margin: 20px auto;
-            text-align: center;  
-            display: flex;
-            flex-direction: column;
-           
-        }
-        
-        h1{
-            color: $main-text-color;
-            font-size: 40px;
-            font-weight: 700;
-            margin-bottom: 18px;
-            line-height: 54px;      
-        }
-        span{
-            font-size: 16px;
-            margin-bottom: 42px;
-            line-height: 26px;
-            font-weight:400;
-          
-        }
-        button{
-            width: 285px;
-            height: 60px;
-            text-align: center;
-            display: block;
-            margin: 0 auto;
-            border-radius: 25px;
-            background-color:#ffffff;
-            color:#E24329;
-            border: none;
-            font-weight:700;
-            font-size: 18px;
-            
-        }
+.Partner {
+  width: 100%;
+  &__section {
+    background-color: #fdedea;
+    height: 330px;
+    width: 967px;
+    margin: 20px auto;
+    border-radius: 24px;
+    background-image: url(./images/ani.png);
+    &-context > div {
+      padding-top: 50px;
+      width: 791px;
+      height: 260px;
+      margin: 20px auto;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
     }
-}
 
+    h1 {
+      color: $main-text-color;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      line-height: 54px;
+    }
+    span {
+      font-size: 16px;
+      margin-bottom: 42px;
+      line-height: 26px;
+      font-weight: 400;
+    }
+    button {
+      width: 285px;
+      height: 60px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      border-radius: 25px;
+      background-color: #ffffff;
+      color: #e24329;
+      border: none;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}
